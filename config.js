@@ -45,7 +45,7 @@ module.exports = {
         : convertToBool(process.env.HEROKU),
     API_KEY:
       process.env.HEROKU_API_KEY === undefined
-        ? ""
+        ? "levanter_94fa7ec7f716044888ac0a3efee554e3a"
         : process.env.HEROKU_API_KEY,
     APP_NAME:
       process.env.HEROKU_APP_NAME === undefined
